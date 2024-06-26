@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p,
+h2, 
+h1 {
+    margin: 0;
+}
+   
+.headerPrincipal{
+    background-color: rgb(134, 134, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    gap: 2%;
+}
+
+.contingut{
+    padding: 20px;
+}
+
+.form-buscador{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buscador{
+    border: rgb(0, 0, 0) 2px solid;
+    padding: 5px; 
+    border-right: none;
+    border-radius: 6px 0px 0px 6px;   
+}
+
+.button-inici{
+    border: rgb(0, 0, 0) 2px solid;
+    border-left: none;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.input-button{
+    display: flex;
+    gap: 0;
+}
+
+.llista{
+  
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.recepta{
+    background-color: rgb(200, 200, 195);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px 10px rgb(65, 64, 64);
+    transition: color 0.8s;
+}
+.recepta:hover{
+    background-color: rgba(156, 165, 202, 0.8)
+    color: aliceblue;
+    opacity: 0.8
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(155, 190, 212);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.title-footer{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.contingut-principal{
+    display: flex;
+    gap: 20px;
+}
+
+.contingut-pasta{
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.aside-pasta{
+    padding: 20px;
+}
+
+.llista-pas{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
